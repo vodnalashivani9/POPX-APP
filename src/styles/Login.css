@@ -1,0 +1,65 @@
+.login-container {
+  width: 375px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 35px 20px;
+  background: #f7f8f9;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d2226;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #8a8a8a;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 5px;
+  color: #6c25ff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 14px;
+  background: white;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #999;
+}
+
+.login-btn {
+  width: 100%;
+  height: 46px;
+  background: #cbcbcb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
