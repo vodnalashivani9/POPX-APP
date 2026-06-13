@@ -1,16 +1,168 @@
-# React + Vite
+# PopX React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+PopX is a simple React-based user registration and login application that allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Create a new account
+- Login using registered credentials
+- View account information after successful login
 
-## React Compiler
+The project is built using React, React Router DOM, JavaScript, HTML, and CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Welcome Page
+
+- Welcome screen for users
+- Create Account button
+- Login button for existing users
+
+### Registration Page
+
+- Full Name
+- Phone Number
+- Email Address
+- Password
+- Company Name
+- Agency Selection (Yes/No)
+
+### Login Page
+
+- User authentication using Email and Password
+- Validation against registered user data
+
+### Account Settings Page
+
+- Displays user profile information
+- Shows registered Name and Email Address
+
+---
+
+## Technologies Used
+
+- React.js
+- React Router DOM
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Local Storage
+
+---
+
+## Project Structure
+
+```text
+src
+│
+|
+│
+│
+├── pages
+│   ├── Welcome.jsx
+│   ├── Register.jsx
+│   ├── Login.jsx
+│   └── Account.jsx
+│
+├── styles
+│   ├── Welcome.css
+│   ├── Register.css
+│   ├── Login.css
+│   └── Account.css
+│
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Navigate to Project Folder
+
+```bash
+cd popx-app
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## Application Flow
+
+Welcome Page
+↓
+Create Account
+↓
+Register Page
+↓
+Login Page
+↓
+Account Settings Page
+
+---
+
+## Data Storage
+
+User information is stored using browser Local Storage.
+
+```javascript
+localStorage.setItem("user", JSON.stringify(user));
+```
+
+The application retrieves stored data during login and account display.
+
+---
+
+## Learning Outcomes
+
+Through this project, the following React concepts were implemented:
+
+- Functional Components
+- useState Hook
+- React Router DOM
+- Navigation using useNavigate
+- Form Handling
+- Event Handling
+- Local Storage
+- CSS Styling
+- Component-Based Architecture
+
+---
+
+## Future Enhancements
+
+- Form Validation
+- Password Encryption
+- Backend Integration
+- Database Connectivity
+- JWT Authentication
+- Responsive Mobile Design
+
+---
+
+## Author
+
+Shivani
+
+B.Tech Final Year Student
+
+React Frontend Developer Aspirant
