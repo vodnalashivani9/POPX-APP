@@ -162,7 +162,4 @@ Through this project, the following React concepts were implemented:
 ## Author
 
 Shivani
-
-B.Tech Final Year Student
-
 React Frontend Developer Aspirant
